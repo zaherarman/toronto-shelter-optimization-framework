@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "toronto-shelter-optimization-simulation"
+version = "0.1.0"
+description = "Discrete-event simulation and optimization model for Toronto homeless shelter and referral system."
+readme = "README.md"
+requires-python = ">=3.10"
+
+# Core dependencies for modeling, simulation, and analytics
+dependencies = [
+    "simpy",
+    "numpy",
+    "pandas",
+    "matplotlib",
+    "scipy",
+    "cvxpy",
+    "gurobipy",
+    "plotly",
+    "dash",
+    "requests",
+]
+
+[project.urls]
+Homepage = "https://github.com/zaherarman/toronto-shelter-optimization-simulation"
+Repository = "https://github.com/zaherarman/toronto-shelter-optimization-simulation"
