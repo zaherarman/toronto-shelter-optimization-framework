@@ -21,6 +21,7 @@ dependencies = [
     "plotly",
     "dash",
     "requests",
+    "ipykernel",
 ]
 
 [project.urls]
