@@ -10,8 +10,6 @@ This project addresses the core question:
 
 > **How can shelter spaces be allocated to minimize travel distance while respecting capacity limits, gender eligibility, and geographic imbalance, without reducing the number of people served?**
 
----
-
 ## Data Sources
 
 All data are publicly available and sourced from the **City of Toronto Open Data Portal** and **Statistics Canada**:
@@ -24,8 +22,6 @@ All data are publicly available and sourced from the **City of Toronto Open Data
   Socioeconomic indicators used to estimate homelessness vulnerability
 
 The analysis is restricted to **men’s and women’s shelters within Toronto** due to data consistency and reporting quality.
-
----
 
 ## Methodology Overview
 
@@ -63,8 +59,6 @@ Implemented in **Gurobi**, the optimization prioritizes service coverage before 
 
 This avoids the pathological solution of “minimizing distance by leaving people unserved.”
 
----
-
 ## Key Findings
 
 - The shelter system is **fully capacity-constrained year-round**; algorithmic strategy does not reduce total unsheltered counts.
@@ -73,16 +67,12 @@ This avoids the pathological solution of “minimizing distance by leaving peopl
 - Severe geographic service deserts exist, especially in **North York (M2N)** and other peripheral FSAs.
 - Downtown demand is fragmented across many shelters, indicating a lack of consolidated intake capacity.
 
----
-
 ## Policy-Relevant Recommendations
 
 - Add high-capacity, mixed-gender shelter infrastructure in **M2N**.
 - Address gender imbalance in **M5A** via women-specific capacity.
 - Establish a consolidated intake “hub” in **M5B** to reduce assignment fragmentation.
 - Deploy **seasonal surge shelters** in peripheral hotspots during winter months.
-
----
 
 ## Repository Structure
 ```
