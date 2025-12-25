@@ -2,8 +2,6 @@
 
 This repository contains a data-driven modeling framework for analyzing and improving accessibility within Toronto’s homeless shelter system. The project combines **socioeconomic hotspot identification**, **behavioral simulations**, and a **two-stage mathematical optimization model** to study how shelter capacity, geography, and eligibility constraints affect travel distance and unmet demand across the city.
 
----
-
 ## Problem Motivation
 
 Toronto’s shelter system operates near full saturation (≈98–99% occupancy), while homelessness demand is unevenly distributed across the city. Individuals often travel long distances between shelters with no guarantee of placement, leading to inefficiencies and inequitable access, particularly for women and for residents of peripheral neighborhoods.
